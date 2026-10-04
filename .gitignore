@@ -1,0 +1,30 @@
+# Google Apps Script / local project artifacts
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor settings
+.vscode/
+.idea/
+
+# Local secrets and generated data
+.env
+.env.*
+*.local
+credentials.json
+token.json
+service-account*.json
+
+# Dependency / build outputs (if used in a local toolchain)
+node_modules/
+dist/
+build/
+coverage/
